@@ -4,7 +4,7 @@ import threading
 
 # First message header length
 HEADER = 64
-PORT = 5000
+PORT = 5050
 # Get local server host IP address
 SERVER = socket.gethostbyname(socket.gethostname())
 ADDR = (SERVER, PORT)
